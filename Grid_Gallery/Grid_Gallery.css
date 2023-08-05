@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.head p{
+    background-color: grey;
+    font-family: cooper;
+    height: 50px;
+    font-size: 45px;
+    color: gold;
+    padding: 0px 0px 2px 550px;
+}
+.main{
+    height: 2000px;
+    display: grid;
+    background-color: wheat;
+    gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:'b1 b2 b3'
+                        'b1 b2 b4'
+                        'b1 b5 b6'
+                        'b7 b8 b9'
+                        'b7 b10 b9'
+                        'b11 b12 b9'
+                        'b11 b13 b9'
+                        'b14 b15 b16'
+                        'b14 b17 b18'
+                        'b14 b17 b19'; 
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.Box1{
+    background-color: black;
+    grid-area: b1;
+}
+.Box2{
+    background-color: antiquewhite;
+    grid-area: b2;
+}
+.Box3{
+    background-color: aquamarine;
+    grid-area: b3;
+}
+.Box4{
+    background-color: bisque;
+    grid-area: b4;
+}
+.Box5{
+    background-color: blue;
+    grid-area: b5;
+}
+.Box6{
+    background-color: blueviolet;
+    grid-area: b6;
+}
+.Box7{
+    background-color: brown;
+    grid-area: b7;
+}
+.Box8{
+    background-color: burlywood;
+    grid-area: b8;
+}
+.Box9{
+    background-color: cadetblue;
+    grid-area: b9;
+}
+.Box10{
+    background-color: chartreuse;
+    grid-area: b10;
+}
+.Box11{
+    background-color: chocolate;
+    grid-area: b11;
+}
+.Box12{
+    background-color: coral;
+    grid-area: b12;
+}
+.Box13{
+    background-color: cornflowerblue;
+    grid-area: b13;
+}
+.Box14{
+    background-color: crimson;
+    grid-area: b14;
+}
+.Box15{
+    background-color: darkblue;
+    grid-area: b15;
+}
+.Box16{
+    background-color: forestgreen;
+    grid-area: b16;
+}
+.Box17{
+    background-color: lightcoral;
+    grid-area: b17;
+}
+.Box18{
+    background-color: gold;
+    grid-area: b18;
+}
+.Box19{
+    background-color: slategrey;
+    grid-area: b19;
+}
+

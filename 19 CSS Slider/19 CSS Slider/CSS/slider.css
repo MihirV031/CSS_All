@@ -1,0 +1,36 @@
+.owl-carousel .owl-nav button.owl-prev{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    border-radius: 50%;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    border-radius: 50%;
+}
+
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: black;
+    color: red;
+}
+
+
+.text{
+position: absolute;
+top: 50%;
+left: 50%;
+color: white;
+}

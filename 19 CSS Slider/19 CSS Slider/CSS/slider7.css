@@ -1,0 +1,52 @@
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    background-color: red;
+    color: white;
+}
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: transparent;
+    border: 2px solid red;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    background-color: red;
+    color: white;
+}
+
+/* .owl-item.center img{
+    transform: scale(1.2);
+    transition: .3s;
+    opacity: 1;
+}
+.owl-item img{
+    opacity: 0.6;
+}
+.item{
+    margin: 30px;
+} */
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+center img{
+    width: 200px;
+}

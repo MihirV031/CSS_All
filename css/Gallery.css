@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    width: auto;
+    height:auto;
+    padding: 5px;
+    text-align: center;
+    background-color: burlywood;
+    color: royalblue;
+    font-family: cooper;
+    clear: both;
+}
+/* section{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    width: 33.33%;
+    height: 300px;
+    background-color: black;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+.card1 img{
+    transform-origin: top left;
+}
+.card1:hover img{
+    transform: scale(1.2);
+}*/
+.h1_1{
+    margin:25px 0px;
+    background-color: bisque;
+    clear: both;
+}
+.img{
+    width:calc(50% - 20px);
+    border-radius: 10px;
+    border: 10px solid dimgrey;
+    margin: 0 auto;
+} 
+.img img{
+    width: 100%;
+}
+.h1_2{
+    margin:25px 0px;
+    background-color: bisque;
+    clear: both;
+}
+.img1{
+    width:calc(50% - 20px);
+    border-radius: 10px;
+    border: 10px solid dimgrey;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.4);
+}
+.img1 img{
+    width: 100%;
+}
+.h1_3{
+    margin:25px 0px;
+    background-color: bisque;
+    clear: both;
+}
+.img2{
+    width:calc(33.33% - 20px);
+    height: 300px;
+    border-radius: 10px;
+    border: 10px solid dimgrey;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.4);
+}
+.img2 img{
+    width: 100%;
+    height: 280px;
+}
+.h1_4{
+    margin:25px 0px;
+    background-color: bisque;
+    clear: both;
+}
+.img3{
+    width:calc(25% - 20px);
+    height: 250px;
+    border-radius: 10px;
+    border: 10px solid dimgrey;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.4);
+}
+.img3 img{
+    width: 100%;
+    height: 230px;
+}
+.h1_5{
+    margin:25px 0px;
+    background-color: bisque;
+    clear: both;
+}
+.img4{
+    width:calc(20% - 20px);
+    height: 250px;
+    border-radius: 10px;
+    border: 10px solid dimgrey;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.4);
+}
+.img4 img{
+    width: 100%;
+    height: 230px;
+}
+.h1_6{
+    margin:25px 0px;
+    background-color: bisque;
+    clear: both;
+}
+.img5{
+    width:calc(16.66% - 20px);
+    height: 250px;
+    border-radius: 10px;
+    border: 10px solid dimgrey;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.4);
+}
+.img5 img{
+    width: 100%;
+    height: 230px;
+}

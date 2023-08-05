@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color:#fff;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 12px;
+}
+.main_menu1{
+    display: flex;
+    justify-content: center;  
+}
+.bg{
+    background-color:#f08632
+    ;
+    /* padding: 12px 15px; */
+
+}
+.main_menu1 li a{
+    /* margin-left: 40px; */
+    color: #fff;
+    padding: 15px 30px 15px 25px;
+    display: block;
+}
+.main_menu1 li a.active,
+.main_menu1 li a:hover{
+    background:black
+    
+}
+.main{
+    /* position: relative; */
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_logo{
+    text-align: center;
+    padding: 18px 25px;
+    width: 33.33%;
+
+}
+.main_logo img{
+   
+}
+
+.main_left{
+    display: flex;
+    padding: 0 12px;
+}
+.main_left li a{
+    margin-left: 30px; 
+    color:black;
+    
+    
+}
+.main_left i{
+    margin-left: 4px;
+    color:rgb(59, 59, 59) ;
+    font-size: 14px;
+}
+
+.main_right{
+    display: flex;
+    /* border: ; */
+}
+.main_right  a{
+    margin-left: 30px;
+    color: black;
+}
+.iocn{
+    /* width: 200px; */
+    font-size: 27px;
+}
+
+.main_right .line{
+    border-left: 1px solid rgb(110, 110, 110);
+    padding-left: 25px;
+    transition: .9s;
+}
+.main_right .line:hover{
+    color: rgb(255, 109, 35);
+    transition: .9s;
+}
+.main_right i{
+    font-size:22px;
+    color:rgb(32, 32, 32) ;
+}
+.main_left .bhano{
+    border-right: 1px solid rgb(110, 110, 110);
+    padding-right: 20px;
+}
+.main_left .bhano_2{
+    border-right: 1px solid rgb(110, 110, 110);
+    padding-right: 20px;
+}
+.main_right .line_1{
+    transition: 0.9s;
+
+}
+.main_right .line_1:hover{
+    color: grey;
+    transition: 0.9s;
+}
+.main_right1 a{
+    color:black;
+    /* margin-right: 50px; */
+}
+.main_right1 li p{
+    padding-left: 5px;
+    /* line-height: 1.9; */
+    margin-top: 5px;
+}
+.main_right1{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.sub_menu{
+    position: absolute;
+    display: none;
+    background-color: black;
+}
+.main_menu1 li:hover .sub_menu{
+    display: block;
+}

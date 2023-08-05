@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    border: 5px solid chocolate;
+    border-radius: 5px;
+}
+.main1{
+    background-color: aqua;
+    height: 100px;
+    display: grid;
+    /* justify-items: center; */
+    /* align-items: center; */
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* gap:5px; */
+    /* border: 5px solid aqua; */
+}
+.b1{
+    background-color: black;
+    color: white;
+}
+.b2{
+    background-color: white;
+}
+.b3{
+    background-color: black;
+    color: white;
+}
+.b4{
+    background-color: white;
+}
+.b5{
+    background-color: black;
+    color: white;
+}
+.b6{
+    background-color: white;
+}
+.b7{
+    background-color: black;
+    color: white;
+}
+.b8{
+    background-color: white;
+}
+.main2{
+    background-color: aqua;
+    height: 100px;
+    display: grid;
+    /* justify-items: center; */
+    /* align-items: center; */
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* gap:5px; */
+    /* border: 5px solid aqua; */
+}
+.box1{
+    background-color: white;
+}
+.box2{
+    background-color: black;
+    color: white;
+
+}
+.box3{
+    background-color: white;
+}
+.box4{
+    background-color: black;
+    color: white;
+}
+.box5{
+    background-color: white;
+}
+.box6{
+    background-color: black;
+    color: white;
+}
+.box7{
+    background-color: white;
+}
+.box8{
+    background-color: black;
+    color: white;
+}
+.main3{
+    background-color: aqua;
+    height: 100px;
+    display: grid;
+    /* justify-items: center; */
+    /* align-items: center; */
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* gap:5px; */
+    /* border: 5px solid aqua; */
+}
+.b1{
+    background-color: black;
+    color: white;
+}
+.b2{
+    background-color: white;
+}
+.b3{
+    background-color: black;
+    color: white;
+}
+.b4{
+    background-color: white;
+}
+.b5{
+    background-color: black;
+    color: white;
+}
+.b6{
+    background-color: white;
+}
+.b7{
+    background-color: black;
+    color: white;
+}
+.b8{
+    background-color: white;
+}
+.main4{
+    background-color: aqua;
+    height: 100px;
+    display: grid;
+    /* justify-items: center; */
+    /* align-items: center; */
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* gap:5px; */
+    /* border: 5px solid aqua; */
+}
+.box1{
+    background-color: white;
+}
+.box2{
+    background-color: black;
+    color: white;
+
+}
+.box3{
+    background-color: white;
+}
+.box4{
+    background-color: black;
+    color: white;
+}
+.box5{
+    background-color: white;
+}
+.box6{
+    background-color: black;
+    color: white;
+}
+.box7{
+    background-color: white;
+}
+.box8{
+    background-color: black;
+    color: white;
+}
+.main5{
+    background-color: aqua;
+    height: 100px;
+    display: grid;
+    /* justify-items: center; */
+    /* align-items: center; */
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* gap:5px; */
+    /* border: 5px solid aqua; */
+}
+.b1{
+    background-color: black;
+    color: white;
+}
+.b2{
+    background-color: white;
+}
+.b3{
+    background-color: black;
+    color: white;
+}
+.b4{
+    background-color: white;
+}
+.b5{
+    background-color: black;
+    color: white;
+}
+.b6{
+    background-color: white;
+}
+.b7{
+    background-color: black;
+    color: white;
+}
+.b8{
+    background-color: white;
+}
+.main6{
+    background-color: aqua;
+    height: 100px;
+    display: grid;
+    /* justify-items: center; */
+    /* align-items: center; */
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* gap:5px; */
+    /* border: 5px solid aqua; */
+}
+.box1{
+    background-color: white;
+}
+.box2{
+    background-color: black;
+    color: white;
+
+}
+.box3{
+    background-color: white;
+}
+.box4{
+    background-color: black;
+    color: white;
+}
+.box5{
+    background-color: white;
+}
+.box6{
+    background-color: black;
+    color: white;
+}
+.box7{
+    background-color: white;
+}
+.box8{
+    background-color: black;
+    color: white;
+}
+.main7{
+    background-color: aqua;
+    height: 100px;
+    display: grid;
+    /* justify-items: center; */
+    /* align-items: center; */
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* gap:5px; */
+    /* border: 5px solid aqua; */
+}
+.b1{
+    background-color: black;
+    color: white;
+}
+.b2{
+    background-color: white;
+}
+.b3{
+    background-color: black;
+    color: white;
+}
+.b4{
+    background-color: white;
+}
+.b5{
+    background-color: black;
+    color: white;
+}
+.b6{
+    background-color: white;
+}
+.b7{
+    background-color: black;
+    color: white;
+}
+.b8{
+    background-color: white;
+}
+.main8{
+    background-color: aqua;
+    height: 100px;
+    display: grid;
+    /* justify-items: center; */
+    /* align-items: center; */
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* gap:5px; */
+    /* border: 5px solid aqua; */
+}
+.box1{
+    background-color: white;
+}
+.box2{
+    background-color: black;
+    color: white;
+
+}
+.box3{
+    background-color: white;
+}
+.box4{
+    background-color: black;
+    color: white;
+}
+.box5{
+    background-color: white;
+}
+.box6{
+    background-color: black;
+    color: white;
+}
+.box7{
+    background-color: white;
+}
+.box8{
+    background-color: black;
+    color: white;
+}

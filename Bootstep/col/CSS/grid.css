@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p-3{
+    background-color: aqua;
+}
+.row{
+    background-color: cornflowerblue;
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+}

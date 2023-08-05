@@ -1,0 +1,70 @@
+.card_img{
+    width: 100px;
+    /* height: 100px; */
+    align-items: center;
+    /* border: 5px solid cadetblue; */
+    /* border-radius: 25%; */
+}
+.card p{
+    padding: 10px;
+    margin-left: 10px;
+}
+.owl-carousel{
+    background-color: cadetblue;
+}
+.card{
+    background-color: wheat;
+    margin-top:20px;
+    margin-left: 10px;
+    padding-top:10px;
+    padding-left: 10px;
+    border-radius:5px 20px 5px 20px;
+}
+.card span{
+    font-family:Cooper;
+    color: chocolate;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    transition: .5s;
+    /* transform: rotate(-30deg); */
+}
+.owl-theme .owl-nav{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    transition: .5s;
+    /* transform: rotate(30deg); */
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: black;
+    transform: rotate(-360deg);
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: black;
+    transform: rotate(360deg);
+}
+.owl-theme .owl-dots .owl-dot span{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: black;
+    transform: scale(1.3);
+}

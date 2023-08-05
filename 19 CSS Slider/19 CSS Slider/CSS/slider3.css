@@ -1,0 +1,51 @@
+/* .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    background-color: red;
+    color: white;
+}
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: transparent;
+    border: 2px solid red;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    background-color: red;
+    color: white;
+} */
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 25px;
+    background-color: black;
+    /* display: block; */
+    /* height: 20px; */
+}
+
+.owl-theme .owl-dots .owl-dot span:hover{
+    background-color: red;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: red;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+/* .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: transparent;
+} */

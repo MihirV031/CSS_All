@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter,sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0px 12px;
+}
+header{
+    background-color: black;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 250px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.Main_menu{
+    display: flex;
+}
+.Main_menu li a{
+    padding: 30px 20px;
+    display: block;
+    text-transform: capitalize;
+    font-size: large;
+    color: white;
+}
+hr{
+
+}
+.Main_menu li:hover > a{
+    color: blue;
+}
+.Main_menu li{
+    position: relative;
+}
+.sub_menu{
+    position: absolute;
+    display: none;
+    width: 250px;
+    top: 100%;
+    left: 0px;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px black;
+}
+.sub_menu li a{
+    display: block;
+    color: black;
+    padding: 15px 20px;
+}
+.Main_menu li:hover .sub_menu{
+    display: block;
+}
+/* .sub_menu li:hover{
+    
+} */
+.icon a{
+    color: rgb(27, 16, 228);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: .5s;
+    background-color:black;
+    box-shadow: 0 0 5px white;
+    padding-right: 5px;
+}
+a > i{
+    margin-left: 5px; 
+}
+.icon a:hover{
+    background-color: aliceblue;
+    color: black;
+}

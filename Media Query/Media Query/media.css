@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    height: 100px;
+    background-color: crimson;
+}
+
+@media screen and (max-width: 500px)
+{
+    .box{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px)
+{
+    .box{
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    .box{
+        background-color: green;
+    }
+}
+
+@media screen and (orientation: landscape)
+{
+    body{
+        background-color: black;
+    }
+}
+
+@media screen and (orientation: portrait)
+{
+    body{
+        background-color: yellow;
+    }
+}

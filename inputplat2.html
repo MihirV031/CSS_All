@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .div{
+            position: relative;
+        }
+        label{
+            position: absolute;
+            margin-left: -3px;
+            left: 0;
+            height: min-content;
+            top: 13px;
+            display: flex;
+            align-items: center;
+            bottom: -20px;
+            padding: 0px 5px;
+            color: grey;
+            transition: .3s ease-in-out;
+        }
+        input{
+            border: none;
+            border-bottom: 2px solid grey;
+            height: 30px;
+        }
+        input:focus{
+            outline: none;
+            border-color: black;
+        }
+        input:focus+label {
+            transform: translateY(-25px);
+            background-color: white;
+            color: black !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <input type="text" name="" id="">
+        <label for="">Name</label>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: inline-block;
+        }
+
+        .field {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+            
+        /* input:is(:hover , :focus) */
+
+        label{
+            position: absolute;
+            margin-left: 10px;
+            padding: 0px 5px;
+            transition: .3s ease-in-out;
+        }
+        input:focus+label {
+            transform: translateY(-10px);
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form">
+        <div class="field">
+            <input type="text">
+            <label>Name</label>
+        </div>
+
+        <div class="field">
+            <input type="text">
+            <label>Age</label>
+        </div>
+    </form>
+</body>
+</html>

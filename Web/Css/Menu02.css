@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Muli", Helvetica, Arial, sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+header{
+    background-color: #F4F4F4;
+    box-shadow: 0px 5px 10px #000;
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;    
+}
+.logo img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.Main_menu{
+    display: flex;
+    align-items: center;
+}
+.Main_menu li a{
+    padding: 40px 20px;
+    display: block;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: black;
+    transition:.3s;
+    justify-content:space-between;
+}
+.Main_menu li a.active,
+.Main_menu li a:hover{
+    background-color: #0C242E;
+    color: #F4F4F4;
+    border-bottom:3px solid #E4B248;
+}
+.Main_menu li:hover > a{
+    color: white;
+    background-color: #0C242E;
+    border-bottom:3px solid #E4B248;
+}
+.Main_menu li{
+    position: relative;
+}
+.sub_menu{
+    position: absolute;
+    display: none;
+    width: 250px;
+    top: 99%;
+    left: 0px;
+    box-shadow: 0 0 8px #E4B248;
+    color: white;
+}
+.sub_menu li a{
+    display: block;
+    color: white;
+    padding: 15px 15px;
+    transition:.2s;
+    background-color: #0C242E;
+    text-transform: capitalize;
+}
+.Main_menu li:hover .sub_menu{
+    display: block;
+    color: white;
+}
+.sub_menu li:hover > a{
+    background-color: #E4B248;
+    padding-left:10px;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+}
+button{
+    padding: 5px 15px;
+    background-color:  #E4B248;
+    border: 3px solid  #E4B248;
+    font-family: Varela Round;
+    color: white;
+    letter-spacing: 0.0725em;
+    font-size: 15px;
+    transition: .9s;
+}
+button:hover{
+    background-color:#0C242E;
+    border:3px solid #0C242E;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px 0px 15px 0px;
+}
+a > i{
+    margin-left: 5px; 
+}
+.icon{
+    margin-right: 0px;
+    padding: auto;   
+}
+

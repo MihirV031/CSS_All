@@ -1,0 +1,53 @@
+:root {
+     --theme-orange: #fe5716;
+     --theme-blue: #17195A;
+     --theme-green: #0A9642;
+     --white: #fff;
+     --black: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     color: var(--black);
+}
+
+.bg-orange {
+     background-color: var(--theme-orange);
+     color: var(--white);
+}
+
+.bg-green {
+     background-color: var(--theme-green);
+     color: var(--white);
+}
+
+.bg-blue {
+     background-color: var(--theme-blue);
+     color: var(--white);
+}
+
+.spacer {
+     padding: 80px 0;
+}
+
+.t-orange {
+     color: var(--theme-orange);
+}
+
+.t-white {
+     color: var(--white);
+}
+
+@media screen and (min-width: 1200px) {
+     .top_nav {
+          margin-top: -50px;
+     }
+     .top_nav .menu_bar
+     {
+          border-radius: 60px;
+     }
+}

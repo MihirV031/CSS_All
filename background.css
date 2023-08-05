@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img{
+    background-image: url(slide_3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.img h1{
+    text-align: center;
+    padding-top: 300px;
+    font-family: Courier;
+}
+.first{
+    background-color: #282E34;
+    color: wheat;
+    padding: 10px 20px;
+    box-shadow:10px 10px 10px black;
+}
+.head h1{   
+    text-align: center;
+    padding:10px;
+    font-family: cooper;
+}
+.info p{
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img1{
+    background-image: url(img/singa.webp);
+    width: 100%;
+    height: 500px;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.img1 h1{
+    text-align: center;
+    padding-top: 230px;
+    font-family: Courier;
+}   
+.secd{
+    background-color: #282E34;
+    color: wheat;
+    padding: 8px 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0,0.6);
+    box-sizing: border-box;
+    border: 4px solid grey;
+    border-radius: 10px;
+    text-shadow: 10px 10px 10px rgb(91, 97, 104);
+}
+.P p{
+    color:whitesmoke;
+    background-color: #282E34;
+    text-align: justify;
+    padding: 40px 0px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 10px 10px 10px gray;
+}
+.img2{
+    background-image: url(img/singa2.webp);
+    /* width: 100%; */
+    height: 400px;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;    
+}
+.img2 h1{
+    text-align: center;
+    padding-top: 200px;
+    font-family: Courier;
+}
+.three{
+    font-size: 50px;
+    text-shadow: 10px 10px 10px;
+    color: wheat;
+    padding: 5px 10px;
+    text-shadow: 10px 10px 10px #282E34;
+}
+.P2 p{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 10px 10px 10px grey;
+    padding: 50px 0px;
+    background-color: #282E34;
+    color:whitesmoke;    
+}
+.img3{
+    background-image: url(img/img_parallax.jpg);
+    /* width: 100%; */
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;    
+}
+.img3 h1{
+    text-align: center;
+    padding-top: 300px;
+    font-family: Courier;
+}
+.last{
+    color: wheat;
+    background-color: #282E34;
+    padding: 10px 30px;
+    box-shadow:10px 10px 10px black;
+}

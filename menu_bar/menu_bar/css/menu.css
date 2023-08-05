@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Calibri, sans-serif;
+    color: white;
+}
+header{
+    /* padding: 20px; */
+    /* height: 500px; */
+    box-shadow: 0 0 5px white;
+    background-color:#262626;
+    border: 1px solid pink;
+
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px; */
+    /* height: 150px; */
+
+}
+.logo img{
+    width: 200px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.main_menu li{
+    position: relative;
+}
+.main_menu{
+    display: flex;
+}
+.main_menu li a{
+    padding: 30px 18px;
+    display: block;
+    color: white;
+    transition: 0.5s;
+}
+.main_menu li a.active,
+.main_menu li a:hover{
+    color: #c59d5f;
+}
+.sub_menu{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    background-color: #262626;
+    width: 200px;
+}
+.sub_menu li a{
+    padding: 15px 15px;
+    display: block; 
+}
+.main_menu li:hover .sub_menu{
+    display: block;
+}
+.sub_menu li:hover{
+    border: 1px solid rgba(255, 255, 255, 0.605); 
+}
+.sub_menu li:hover > a{
+    color: black;
+    background-color: #c59d5f;
+    color: black;
+    padding-left: 25px;
+}
+.lcon{
+    margin-right:80px;
+}
+.lcon i{
+    margin-left: 40px;
+    font-size: 20px;
+    color: #fff;
+    transition: .9s;
+}
+.lcon i:hover{
+    color: #c59d5f;
+    transition: .9s;
+    transform: scale(1.2);
+}
+.btn_1{
+    font-size: 16px;
+    background-color: #c59d5f;
+    border: 2px solid #c59d5f;
+    color: #fff;
+    transition: .9s;
+    border-radius: 20px;
+}
+.btn_1 a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+
+}
+.btn_1:hover{
+    color: #c59d5f;
+    background-color: transparent;
+    border: 2px solid #c59d5f;
+    transition: .9s;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+.icon1{
+    margin-left: 8px;
+}
+.icon2{
+    /* margin-left: 60px; */
+    position: absolute;
+    right: 6%;
+}
+.peta_menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #262626;
+    width: 200px;
+    display: none;
+}
+.sub_menu li:hover .peta_menu{
+    display: block;
+}
